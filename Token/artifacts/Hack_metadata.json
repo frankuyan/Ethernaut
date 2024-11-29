@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Token/TokenAttack.sol": "Hack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Token/TokenAttack.sol": {
+			"keccak256": "0xe61d677057fe09542c5cafb829a60acb022dc0210ea1d7084e5c001d760e037c",
+			"urls": [
+				"bzz-raw://7d054b5e3ca6fe4338bdf70d1a205f231b30900f95f17bcf1035506cd3fb2dba",
+				"dweb:/ipfs/QmRNPTjS7Cj2RsRhJ1sDtruofVvm1GydqcZ1eGw5D5BfKf"
+			]
+		}
+	},
+	"version": 1
+}
