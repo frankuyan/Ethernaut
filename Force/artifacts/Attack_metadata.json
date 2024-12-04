@@ -4,7 +4,19 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +30,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Force/Force.sol": "Force"
+			"Force/Force.sol": "Attack"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

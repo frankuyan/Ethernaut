@@ -13,6 +13,17 @@
 
 
 
+##### Solution
+
+basically anything that involves the constructor calling `selfdestruct(_target);` works as long as you are setting the `wei` as non-zero. 
+
+I initially assumed that `self-destruct` would just do that wonders itself by iterating the balance by one. But I guess that is not the case. 
+
+
+TODO 
+- [ ] review more of the solidity documentation 
+
+
 
 Force level  image
 Some contracts will simply not take your money ¯\_(ツ)_/¯
