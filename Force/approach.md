@@ -1,6 +1,18 @@
 
 
-How would we approach this problem ? 
+#### How would we approach this problem ? 
+
+
+
+
+#### Potential Approach to this problem 
+
+- [ ] Create a contract from scratch or use boilerplate implementations ? 
+- [ ] Other Strategies ? 
+- [ ] using `selfdestruct` address target to do this
+
+
+
 
 Force level  image
 Some contracts will simply not take your money ¯\_(ツ)_/¯
@@ -12,6 +24,8 @@ The goal of this level is to make the balance of the contract greater than zero.
 Fallback methods
 Sometimes the best way to attack a contract is with another contract.
 See the "?" page above, section "Beyond the console"
+
+```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -22,3 +36,7 @@ contract Force { /*
     /~____  =ø= /
     (______)__m_m)
                    */ }
+
+                   
+
+```
