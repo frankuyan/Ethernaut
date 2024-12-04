@@ -15,14 +15,4 @@ contract Force { /*
 }
 
 
-contract Hack {
 
-     // send some ETH using `selfDestruct` to implement this
-
-     constructor(address payable target) payable {
-          selfdestruct(target);
-
-     }
-
-
-}

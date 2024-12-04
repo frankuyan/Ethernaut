@@ -1,0 +1,40 @@
+{
+  "accounts": {
+    "account{0}": "0x1E9F59d69c9eE6AB6b99B8F5Bde987724DB838b4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1733348449056,
+      "record": {
+        "value": "0",
+        "inputs": "(address)",
+        "parameters": [
+          "0xc6cDa8133104110a4B6b0FFae84cF814719Edf49"
+        ],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xe13a8e9fedbc1cdd0dc550379bd664b965b06e2d4d3f8b855147c1eb295c3be0",
+        "contractName": "ToBeDestructed",
+        "bytecode": "60806040526040516100ba3803806100ba8339818101604052810190602391906093565b8073ffffffffffffffffffffffffffffffffffffffff16ff5b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6067826040565b9050919050565b607581605f565b8114607e575f80fd5b50565b5f81519050608d81606e565b92915050565b5f6020828403121560a55760a4603c565b5b5f60b0848285016081565b9150509291505056fe",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xe13a8e9fedbc1cdd0dc550379bd664b965b06e2d4d3f8b855147c1eb295c3be0": [
+      {
+        "inputs": [
+          {
+            "internalType": "address payable",
+            "name": "_forceAddress",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "payable",
+        "type": "constructor"
+      }
+    ]
+  }
+}

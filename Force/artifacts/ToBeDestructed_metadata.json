@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_forceAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Force/ForceSol1.sol": "ToBeDestructed"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Force/Force.sol": {
+			"keccak256": "0x707c06ca64e5cc9c120de1ebb85250e9b3aff1d5c7b14ee8022b6db9caace7f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3d348e281d18100ad05c5ad5de1343c008181bb5b1d0b320310863ecd903af4",
+				"dweb:/ipfs/QmX5kqHVer8tKaxyaMsQCAKqWnC6NfG6XSzLBz1bbEjqFY"
+			]
+		},
+		"Force/ForceSol1.sol": {
+			"keccak256": "0x5a09b3bdc51893008b61893c3feeaf16b7e8c0289ff11eb72d32c52e3de5f4fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5fce2a15699394e7f47119a04a03ba6e9fd6fc3b2ed348af02a3a514c26d66e",
+				"dweb:/ipfs/QmaSU4YFjQLXE4S5vRmZuS1GzWnbCZWjSTT64XeK9QbTn8"
+			]
+		}
+	},
+	"version": 1
+}
