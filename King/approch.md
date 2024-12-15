@@ -11,9 +11,9 @@ without triggering the self-reclaimation process. **re-entry attack** might be a
 > Such a fun game. Your goal is to break it.
 
 
+**Soluton**
 
-
-an approach to this problem would be to create a new contract to send some ETH while deploying the contract 
+an approach to this problem would be to create a new contract to send some ETH while deploying the contract. One way you can implement this would be to use an `attack
 
 
 
