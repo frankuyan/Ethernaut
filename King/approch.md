@@ -13,6 +13,10 @@ without triggering the self-reclaimation process. **re-entry attack** might be a
 
 
 
+an approach to this problem would be to create a new contract to send some ETH while deploying the contract 
+
+
+
 ```
 
 // SPDX-License-Identifier: MIT
