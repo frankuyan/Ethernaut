@@ -13,7 +13,9 @@ without triggering the self-reclaimation process. **re-entry attack** might be a
 
 **Soluton**
 
-an approach to this problem would be to create a new contract to send some ETH while deploying the contract. One way you can implement this would be to use an `attack
+an approach to this problem would be to create a new contract to send some ETH while deploying the contract. 
+the constructor `AttackKing` takes a target contract address and sends more ether than the current prize to the target contract.  In this case, our attack constructor becomes the new contract. 
+The `call()` function inside `AttackKing` allows us to conduct a Reentry Attack that uses and empty `""` array. 
 
 
 
