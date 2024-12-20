@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "_gateKey",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "entrant",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gatekeeper/gatekeeperone.sol": "GatekeeperOne"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gatekeeper/gatekeeperone.sol": {
+			"keccak256": "0x668687580511168a87e01e5ec551d0d6543908bd783f218ef9b60ddae59c979e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b55ea4684880bc1d1f30719e8c127ef05142ebc4c810a9b63b5c8efc42b8b35d",
+				"dweb:/ipfs/QmUf3PN8SSktJwLff1ynqUxRrzCN9jwqYrehqJzD5iXZMb"
+			]
+		}
+	},
+	"version": 1
+}
