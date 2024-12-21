@@ -30,3 +30,11 @@ contract GatekeeperOne {
 
     
 }
+
+
+
+contract Attack {
+
+
+    function enter()
+}
