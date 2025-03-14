@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_solver",
+						"type": "address"
+					}
+				],
+				"name": "setSolver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solver",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"magicnumber/magic.sol": "MagicNum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"magicnumber/magic.sol": {
+			"keccak256": "0x79c277968417afd039c14a77d8282a0ca31c3bb7183ee7874cea3ab7ebfc5778",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f951566a4768ae7d74f63c45932b6856a0cfaf5cf387479ac79177e7243acdb",
+				"dweb:/ipfs/QmSzqjxDNpKVr5CrxAtwKg6s7HdVr2KRsbzkT4j6RtHo4n"
+			]
+		}
+	},
+	"version": 1
+}
