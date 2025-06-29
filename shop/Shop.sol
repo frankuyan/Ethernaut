@@ -16,5 +16,7 @@ contract Shop {
             isSold = true;
             price = _buyer.price();
         }
+
+        
     }
 }
