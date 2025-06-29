@@ -5,7 +5,10 @@ interface Hack {
 
     Shop private immutable shop; 
 
-    constructor(Shop _shop)
+    constructor(address _shopAddress) {
+        shop = IShop(_shopAddress);
+    }
+
 
     
     
