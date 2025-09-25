@@ -82,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Denial/denial.sol": "Denial"
+			"Denial/Denial.sol": "Denial"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -96,7 +96,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Denial/denial.sol": {
+		"Denial/Denial.sol": {
 			"keccak256": "0x809de30eae48fbf3e8dd8172522e1fab93f9250467b458d0e88b21a1931be568",
 			"license": "MIT",
 			"urls": [
